@@ -43,13 +43,13 @@
     [1, 2, 3]
   ];
 
-  echo count($counting, 1);
+  echo count($counting, 1);//7 out /in
 
   echo '<br>';
 
   $search = ["1", 2, 3, 4];
 
-  if (in_array(1, $search, True)) {
+  if (in_array(1, $search, True)) {//true type+
     echo "The Element Is Found";
   }
 
