@@ -59,3 +59,16 @@
     --- Counts All The Values Of An Array
   
 
+    Array Functions
+    - array_merge(Array[Required], Other_Array/s[Optional])
+    --- Merge One Or More Arrays
+    ------ Later Array Key With The Same Name Override The Value Of The Previous One
+    ------ Numeric Key Will Be Renumbered
+    - array_replace(Array[Required], Replacement/s[Optional])
+    --- Replaces Elements From Passed Arrays Into The First Array
+    ------ Same Key => Value In Second Array Replace Same Key => Value In First Array
+    ------ If Key In Second Array Not Found In Fisrt Array It Will Be Created
+    - array_rand(Array[Required], Num[Optional])
+    --- Pick One Or More Random Keys Out Of An Array
+    - shuffle(Array[Required])
+    --- Shuffle An Array
