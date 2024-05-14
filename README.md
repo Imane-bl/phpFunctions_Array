@@ -64,6 +64,9 @@
     --- Merge One Or More Arrays
     ------ Later Array Key With The Same Name Override The Value Of The Previous One
     ------ Numeric Key Will Be Renumbered
+
+
+    
     - array_replace(Array[Required], Replacement/s[Optional])
     --- Replaces Elements From Passed Arrays Into The First Array
     ------ Same Key => Value In Second Array Replace Same Key => Value In First Array
@@ -72,3 +75,75 @@
     --- Pick One Or More Random Keys Out Of An Array
     - shuffle(Array[Required])
     --- Shuffle An Array
+
+
+    67 Array Functions
+
+    - array_shift(Array[Required])
+    --- Shift An Element Off The Beginning Of Array
+    --- This Function Will Reset => "reset()" The Input Array Pointer
+
+    - array_pop(Array[Required])
+    --- Pop The Element Off Ehe End Of Array
+    --- This Function Will Reset => "reset()" The Input Array Pointer
+
+    - array_push(Array[Required], Values[Optional])
+    --- Push One Or More Elements Onto The End Of Array
+    --- You Can Use $arr[]
+
+    - array_unshift(Array[Required], Values[Optional])
+    --- Add One Element In The Beginning Of An Array
+    --- This Function Will Reset => "reset()" The Input Array Pointer
+
+    68 Array Functions
+
+    - array_slice(Array[Required], Start[Required], Length[Optional], Preserve_Keys[Optional])
+    --- Extract A Slice Of The Array
+    --- Start
+    ------ 0 From Start
+    ------ -1 From Last Element
+    --- Length
+    ------ Negative => Stop Slicing Until This Index
+    ------ Not Set => All Elements From Start Position
+    --- Preserve Keys
+    ------ False => Default => Reset Keys
+    ------ True => Preserve Keys
+    --- If Array Have String Keys, It Will Always Preserve The Keys
+
+    - array_splice(Array[Required], Start[Required], Length[Optional], Array[Optional])
+    --- Remove A Portion Of The Array And Replace It With Something Else
+    --- Start
+    ------ 0 From Start
+    ------ -1 From Last Element
+    --- Length
+    ------ Negative => Stop Removing Until This Index
+    ------ Not Set => Remove All Elements From Start Position
+
+    69  Array Functions
+
+    - sort(Array[Required], Flag[Optional])
+    --- Sort An Indexed Array In Ascending Order
+
+    - rsort(Array[Required], Flag[Optional])
+    - Sort An Indexing Array In Descending Order
+
+    - asort(Array[Required], Flag[Optional])
+    --- Sort An Associative Array In Ascending Order According To The Value
+
+    - arsort(Array[Required], Flag[Optional])
+    --- Sort An Associative Array In Descending Order According To The Value
+
+    - ksort(Array[Required], Flag[Optional])
+    --- Sort An Associative Array In Ascending Order According To The Key
+
+    - krsort(Array[Required], Flag[Optional])
+    --- Sort An Associative Array In Descending Order According To The Key
+
+    - natsort(Array[Required], Flag[Optional])
+    --- Sorts An Array By Using A "Natural Order" Algorithm
+
+    Practice
+    -- Flags
+    -- Our Own Sorting Function
+
+    
