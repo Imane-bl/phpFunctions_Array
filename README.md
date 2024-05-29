@@ -157,6 +157,14 @@
     ------ ARRAY_FILTER_USE_KEY
     ------ ARRAY_FILTER_USE_BOTH
     ------ 0 Default => Send Value As Arguments
+    
+    72   Array Functions
+
+    - array_reduce(Array[Required], Callback Function[Required], Initial_Value[Optional])
+    --- Reduce The Array To A Single Value
+    --- Carry => The Value Of The Previous Iteration || Initial Value
+    --- Item => The Value Of The Current Iteration
+
 
 
     
