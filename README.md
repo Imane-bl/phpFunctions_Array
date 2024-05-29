@@ -146,4 +146,17 @@
     -- Flags
     -- Our Own Sorting Function
 
+    71 Array Functions
+
+    - array_map(Callback Function[Required], Array[Required], Other Arrays[Optional])
+    --- Applies The Callback To The Elements Of The Given Arrays
+
+    - array_filter(Array[Required], Callback Function[Required], Flag[Optional])
+    --- Filter Values Of An Array Using A Callback Function
+    --- Flag
+    ------ ARRAY_FILTER_USE_KEY
+    ------ ARRAY_FILTER_USE_BOTH
+    ------ 0 Default => Send Value As Arguments
+
+
     
